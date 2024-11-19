@@ -1,0 +1,14 @@
+#!/bin/bash
+# showargs
+# this script shows all arguments used when starting the script
+echo showing for on \$@
+for i in "$@"
+do
+ echo $i
+done
+echo showing for on \$*
+for i in "$*"
+do
+ echo $i
+done
+exit 0

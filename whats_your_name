@@ -1,0 +1,15 @@
+#!/bin/bash
+# Script to ask a user for his/her name and
+# welcomes him/her  with a greeting
+echo "Hello Buddy, What is your name ?"
+read NAME
+COURSE1=$1
+COURSE2=$2
+COURSE3=$3
+cat << EOF
+Hi $NAME, you are welcome to this cloud playbook.
+It's a pleasure having you here.
+We are here to learn $COURSE1, $COURSE2, and $COURSE3.
+Have some fun !!!
+EOF
+exit 0

@@ -1,0 +1,7 @@
+#!/bin/bash
+# counter
+# counter that counts from 1 to 9
+for (( counter=1; counter<10; counter++ )); do
+ echo "The counter is now set to $counter"
+done
+exit 0
