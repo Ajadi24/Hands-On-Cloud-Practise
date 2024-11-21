@@ -1,0 +1,10 @@
+#!/bin/bash
+# Welcome to my character counter
+# This script receives a word as input
+# then displays the number of characters in it
+# let's have some fun
+echo Enter a word
+read WORD
+CHAR_NO=${#WORD}
+echo "The number of characters in $WORD is $CHAR_NO"
+exit 0
