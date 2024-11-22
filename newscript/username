@@ -1,0 +1,6 @@
+#!/bin/bash
+# This displays the user name of the shell environment
+MAIN_USER=`uname`
+echo "The username of this shell environment is $MAIN_USER"
+exit 0
+
