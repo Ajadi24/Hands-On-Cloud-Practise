@@ -1,0 +1,11 @@
+#!/bin/bash
+# This script accepts a directory name as an argument 
+# then lists its contents
+DIR_NAME=$1
+if [ -d $1 ]
+then
+	ls $DIR_NAME
+else
+	echo enter a valid directory name
+fi
+exit 0
